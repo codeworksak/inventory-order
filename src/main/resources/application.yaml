@@ -1,3 +1,13 @@
 spring:
   application:
     name: inventory-order
+  mongodb:
+    host: localhost
+    port: 27017
+    database: orders_db
+    username: "root"
+    password: "pass123"
+    authentication-database: admin
+
+server:
+  port: 8084
